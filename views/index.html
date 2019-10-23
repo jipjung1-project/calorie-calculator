@@ -36,7 +36,7 @@
     $(function () {
       $("#upload").on("click", function () {
         $("#result")[0].innerHTML = "<input type='image' src ='loading.gif'>"
-        $("#facts")[0].innerHTML = "로딩중..."
+        $("#facts")[0].innerHTML = "Loading..."
 
         let fileContent = new FormData();
         for (let i = 0; i < $("input#photo")[0].files.length; i++) {
